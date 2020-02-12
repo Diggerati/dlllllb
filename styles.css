@@ -46,6 +46,7 @@ header {
 .nav_menu {
 	text-decoration: none;
 	transition: 0.7s;
+    font-family: 'Maven Pro', sans-serif;
 	height: 45px;
 	text-shadow: 1px 1px 3px black;
 	color: white;
