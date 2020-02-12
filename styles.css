@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+footer{
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-image: linear-gradient(to top right, blue, indigo, violet);
+	color: white;
+
+}
+
+main{
+	height: auto;
+	width: 100%;
+}
+
+nav{
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	z-index: 3;
+	position: absolute;
+
+}
+header {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+
+
+
+
+.nav_menu {
+	text-decoration: none;
+	transition: 0.7s;
+	height: 45px;
+	text-shadow: 1px 1px 3px black;
+	color: white;
+	padding: 25px 20px 0px 20px;
+	width: auto;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: transparent;
+}
+ a{
+	text-decoration: none;
+}
+.nav_menu:hover{
+	border-bottom-color: #FF31FD;
+	color: #FF31FD;
+	text-shadow: none;
+	transition: 0.7s;
+}
+
+.blur_container {
+	height: 300px;
+	z-index: 3;
+	position: absolute;
+	padding: 10px;
+	color: white;
+	width: 500px;border-style: solid;
+	border-width: 7px;
+	border-color: white;
+background-color: transparent;
+	background-size:cover;
+}
+
+
+
+
+
+header .slide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+header .slide.slide1{
+	background: url("images/music_mic.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+header .slide.slide2{
+	background: url("images/music_mic2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	left: 50%;
+}
+
+#logo {
+	padding-top: 5px;
+	font-family: monoton;
+	font-size: 3vw;
+	color: white;
+	transition: 0.7s;
+}
+#logo:hover{
+	color: #FF31FD;
+	transition: 0.7s;
+}
+
+.options {
+	height: 100%;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.music {
+	margin-top: 120px;
+}
+.music:hover{
+	color: #FF31FD;
+	transition: 0.7s;
+}
+
+
+.you {
+	margin-top: 250px;
+	margin-left: 240px;}
+.you:hover{
+	color: #FF31FD;
+	transition: 0.7s;
+}
+
+
+
+
+
+.social_container {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+
+}
+
+.social {
+	width: 150px;
+	display: flex;
+	font-size: 1.5vw;
+	color: white;
+	justify-content: space-around;
+	height: auto;
+}
+
+.fa:hover {
+	color: #FF31FD;
+	transition: 0.7s;
+}
+
+.main_container {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+
+
+.divider {
+	height: auto;
+	width: auto;
+	text-align: center;
+	font-family: quicksand;
+}
