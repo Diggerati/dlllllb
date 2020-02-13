@@ -182,3 +182,10 @@ header .slide.slide2{
 
 
 
+
+.boxes {
+    margin: 0 auto;
+    height: auto;
+    width: 754px;
+ font-family: 'Maven Pro', sans-serif;
+}
