@@ -138,5 +138,9 @@ background-color: whitesmoke;
     color: white;
     text-decoration: none;
 }
+.media_icons > a:hover{
+     color: #b0a1c7;
+    transition: 0.7s;
+}
 
 
