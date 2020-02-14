@@ -65,7 +65,12 @@ background-color: whitesmoke;
 .options {
     color: white;
     font-family: 'Comfortaa', cursive;
-
+    transition: 0.7s;
+}
+.options:hover{
+    cursor: pointer;
+    color: #b0a1c7;
+    transition: 0.7s;
 }
 
 .options_holder {
@@ -104,7 +109,7 @@ background-color: whitesmoke;
     color: grey;
     font-family: 'roboto', sans-serif;
     font-size: 1.5vw;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .mail_box {
