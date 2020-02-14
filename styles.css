@@ -106,3 +106,17 @@ background-color: whitesmoke;
     font-size: 1.5vw;
     margin-top: 15%;
 }
+
+.mail_box {
+    height: 10%;
+    width: 70%;
+    text-indent: 3px;
+        font-family: 'Comfortaa', cursive;
+
+    background-color: transparent;
+    border-color: grey;
+    border-style: solid;
+    margin-top: 5%;
+
+
+}
