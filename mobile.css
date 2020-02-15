@@ -1,3 +1,35 @@
 @media only screen and (max-width : 600px) {
+.options {
+    display: none;
+}
+.home_left {
+display: none;
+}
+    .home_right {
+    width: 100%;
+}
+    .media_icons{
+        margin-top: 8%;
+    }
+    .dlb-welcome-pg {
+    font-size: 4vw;
+}
+    .dlb-welcome {
+    font-size: 8vw;
+}
+    .mailing {
+    font-size: 4.3vw;
+}
+    .mail_box{
+        font-size: 3vw;
+    }
+    .menu_icon {
+    display: block;
+        height: 60%;
+        width: auto;
+        padding-top: 20px;
+        font-size: 30px;
+        color: white;
+}
 
 }
