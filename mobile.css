@@ -2,6 +2,9 @@
     .options {
         display: none;
     }
+    body{
+        background-color: #111013;
+    }
 
     .home_left {
         display: none;
@@ -17,6 +20,9 @@
         text-align: center;
         font-family: 'Comfortaa', cursive;
     }
+    .opt:hover{
+        background-color: black;
+    }
 
     .my_menu {
         display: block;
@@ -24,6 +30,10 @@
         margin-top: 30%;
         width: 100%;
         float: right;
+    }
+    .my_menu > a{
+        text-decoration: none;
+        color: white;
     }
 
     .close-icon {
