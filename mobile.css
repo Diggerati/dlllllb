@@ -5,6 +5,11 @@
 .home_left {
 display: none;
 }
+    .join_button {
+
+    font-size: 5.5vw;
+
+}
     .home_right {
     width: 100%;
 }
@@ -21,7 +26,7 @@ display: none;
     font-size: 4.3vw;
 }
     .mail_box{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .menu_icon {
     display: block;
@@ -33,3 +38,5 @@ display: none;
 }
 
 }
+
+

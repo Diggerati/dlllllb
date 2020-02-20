@@ -91,6 +91,11 @@ background-color: whitesmoke;
     padding: 15%;
     float: left;
 }
+.dlb-welcome-container > form{
+    height: 25%;
+    width: 100%;
+    margin-top: 2%;
+}
 
 .dlb-welcome {
     color: white;
@@ -113,16 +118,14 @@ background-color: whitesmoke;
 }
 
 .mail_box {
-    height: 10%;
-    width: 70%;
+    height: 35%;
+    width: 100%;
     color: white;
-    text-indent: 3px;
-        font-family: 'Comfortaa', cursive;
-
+    text-indent: 5px;
+    font-family: 'Comfortaa', cursive;
     background-color: transparent;
     border-color: grey;
     border-style: solid;
-    margin-top: 5%;
 
 
 }
@@ -148,4 +151,20 @@ background-color: whitesmoke;
 
 .menu_icon {
     display: none;
+}
+
+.join_button {
+    height: 40%;
+    width: 50%;
+    color: grey;
+    margin-top: 6%;
+    font-size: 1.5vw;
+    background-color: #2d2d2d;
+    border: 0;
+    transition: 0.7s;
+}
+.join_button:hover{
+    color: #2d2d2d;
+    background-color: grey;
+    transition: 0.7s;
 }
