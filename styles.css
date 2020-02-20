@@ -8,10 +8,11 @@ font-family: 'Varela Round', sans-serif;
 font-family: 'Comfortaa', cursive;
 */
 
-*{
+* {
     margin: 0;
 }
-nav{
+
+nav {
     height: 10%;
     width: 100%;
     overflow: hidden;
@@ -21,19 +22,21 @@ nav{
 
 }
 
-header{
+header {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
@@ -45,7 +48,7 @@ html,body{
 }
 
 .home_left {
-background-color: whitesmoke;
+    background-color: whitesmoke;
     justify-content: space-around;
     display: flex;
 }
@@ -67,7 +70,8 @@ background-color: whitesmoke;
     font-family: 'Comfortaa', cursive;
     transition: 0.7s;
 }
-.options:hover{
+
+.options:hover {
     cursor: pointer;
     color: #b0a1c7;
     transition: 0.7s;
@@ -87,11 +91,12 @@ background-color: whitesmoke;
 .dlb-welcome-container {
     height: 60%;
     width: 69.7%;
-/*    background-color: red;*/
+    /*    background-color: red;*/
     padding: 15%;
     float: left;
 }
-.dlb-welcome-container > form{
+
+.dlb-welcome-container > form {
     height: 25%;
     width: 100%;
     margin-top: 2%;
@@ -138,12 +143,14 @@ background-color: whitesmoke;
     display: flex;
     justify-content: space-around;
 }
-.media_icons > a{
+
+.media_icons > a {
     color: white;
     text-decoration: none;
 }
-.media_icons > a:hover{
-     color: #b0a1c7;
+
+.media_icons > a:hover {
+    color: #b0a1c7;
     transition: 0.7s;
 }
 
@@ -163,8 +170,30 @@ background-color: whitesmoke;
     border: 0;
     transition: 0.7s;
 }
-.join_button:hover{
+
+.join_button:hover {
     color: #2d2d2d;
     background-color: grey;
     transition: 0.7s;
+}
+
+.menu_slider {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    margin-left: -10%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.888);
+}
+
+.close-icon {
+    display: none;
+}
+
+.my_menu {
+    display: none;
+}
+
+.opt {
+    display: none;
 }
