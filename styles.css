@@ -15,9 +15,10 @@ font-family: 'Comfortaa', cursive;
 /*scroll br styles*/
 /* width */
 ::-webkit-scrollbar {
-  width: 3px;
+    width: 3px;
     height: 3px;
 }
+
 /*
 ::-webkit-scrollbar:hover{
     width: 20px;
@@ -27,17 +28,17 @@ font-family: 'Comfortaa', cursive;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #111013;
+    background: #111013;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: black;
+    background-color: black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: grey;
+    background: grey;
 }
 
 nav {
@@ -206,9 +207,10 @@ body {
 }
 
 .menu_slider {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 0%;
+    z-index: 6;
     margin-left: -10%;
     display: none;
     background-color: rgba(0, 0, 0, 0.888);
@@ -223,5 +225,184 @@ body {
 }
 
 .opt {
+    display: none;
+}
+
+.services_header {
+    height: 650px;
+    width: 100%;
+    background-image: url(images/Passion_by_Vilia_Majere.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.serivces_navigation {
+    width: 60%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.sign_in_menu {
+    width: 20%;
+}
+
+.dlb_logo {
+    width: 20%;
+    font-size: 3vw;
+    font-family: 'Baloo', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_container {
+    position: fixed;
+    width: 100%;
+    color: white;
+    top: 0;
+    z-index: 5;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trending {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    height: 42%;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.serv_main {
+    height: auto;
+    width: 100%;
+}
+
+.show_room {
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+
+
+
+.trend_name_container {
+    height: 100%;
+    width: 100%;
+}
+
+.trend_name_container > a {
+    text-decoration: none;
+}
+
+.trend_name {
+    height: 25%;
+    width: 100%;
+    font-size: 3vw;
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+
+.trend_order_opts {
+    height: 21%;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    padding-top: 4%;
+    justify-content: space-around;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 3vw;
+    color: white;
+}
+
+.opts_order {
+    height: 40px;
+    width: 40%;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.custom {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: 0.7s;
+
+}
+
+.custom:hover {
+    background-color: rgba(0, 0, 0, 0.888);
+    transition: 0.7s;
+}
+
+.now {
+    background-color: rgba(255, 255, 255, 0.444);
+    transition: 0.7s;
+    border-color: rgba(255, 255, 255, 0.444);
+    color: #111013;
+}
+
+.now:hover {
+    background-color: white;
+    transition: 0.7s;
+}
+
+.store {
+    text-align: center;
+    color: white;
+    height: 20%;
+    widows: 100%;
+    font-size: 1vw;
+    margin-top: 3.1%;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.store > .fa {
+    font-size: 0px;
+    transition: 0.7s;
+}
+
+.store:hover > .fa {
+    font-size: 1vw;
+    transition: 0.7s;
+    margin-right: 10px;
+
+}
+
+.store:hover {
+    font-size: 1vw;
+    transition: 0.7s;
+}
+
+.fa-shopping-basket {}
+
+.tool {
+    display: none;
+    width: 20%;
+}
+
+.menu-icn {
     display: none;
 }

@@ -2,7 +2,8 @@
     .options {
         display: none;
     }
-    body{
+
+    body {
         background-color: #111013;
     }
 
@@ -20,8 +21,67 @@
         text-align: center;
         font-family: 'Comfortaa', cursive;
     }
-    .opt:hover{
+
+    .menu-icn {
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+
+    .trend_order_opts {
+        height: auto;
+        display: block;
+
+    }
+
+    .tool {
+        display: block;
+        padding-right: 1%;
+        padding-top: 6%;
+    }
+    .store{
+        margin-top: 20%;
+        font-size: 3vw;
+    }
+
+    .opts_order {
+        width: 100%;
+        float: left;
+        font-size: 4vw;
+        margin-top: 10%;
+    }
+
+    .trend_name {
+        font-size: 10vw;
+    }
+
+    .opt:hover {
         background-color: black;
+    }
+
+    .dlb_logo {
+        font-size: 9vw;
+        padding-top: 4%;
+        width: 100%;
+
+    }
+
+    .trending {
+        margin-top: 40%;
+
+    }
+
+    .navigation_container {
+        height: 10%;
+        overflow: hidden;
+    }
+
+    .serivces_navigation {
+        display: none;
+    }
+
+    .sign_in_menu {
+        display: none;
     }
 
     .my_menu {
@@ -31,7 +91,8 @@
         width: 100%;
         float: right;
     }
-    .my_menu > a{
+
+    .my_menu > a {
         text-decoration: none;
         color: white;
     }
