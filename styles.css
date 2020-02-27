@@ -209,7 +209,7 @@ body {
 .menu_slider {
     position: fixed;
     height: 100%;
-    width: 0%;
+    width: 0;
     z-index: 6;
     margin-left: -10%;
     display: none;
@@ -247,6 +247,10 @@ body {
     font-family: 'Comfortaa', cursive;
 
 }
+.serivces_navigation > a{
+    color: white;
+    text-decoration: none;
+}
 
 .sign_in_menu {
     width: 20%;
@@ -272,10 +276,7 @@ body {
 }
 
 .trending {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding: 10% 20% 15%;
     height: 42%;
     width: 100%;
     margin-top: 4%;
@@ -372,7 +373,7 @@ body {
     text-align: center;
     color: white;
     height: 20%;
-    widows: 100%;
+    width: 100%;
     font-size: 1vw;
     margin-top: 3.1%;
     font-family: 'Comfortaa', cursive;
@@ -380,7 +381,7 @@ body {
 }
 
 .store > .fa {
-    font-size: 0px;
+    font-size: 0;
     transition: 0.7s;
 }
 

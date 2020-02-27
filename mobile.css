@@ -2,6 +2,12 @@
     .options {
         display: none;
     }
+    .store:hover > .fa {
+          font-size: 15px;
+      }
+    .store:hover {
+        font-size: 15px;
+    }
 
     body {
         background-color: #111013;
